@@ -9,7 +9,7 @@ body {
   position: fixed;
   top:0;
   width: 100%;
-  z-index: 100;
+  z-index: 1;
 }
 
 h1 {
@@ -209,4 +209,104 @@ h1 {
 .footer p {
   color: rgb(100, 0, 0);
   font-family: Montserrat,sans-serif;
+}
+
+.login {
+  min-height: 450px;
+  margin-top: 150px!important;
+  margin-bottom: 42px!important;
+  display: block;
+  width: 100%;
+  max-width: 1313px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 1px;
+}
+
+.col {
+  float: left;
+  min-height: 1px;
+}
+
+.s41 {
+  width: 41%;
+}
+
+.s18 {
+  width: 18%;
+}
+
+.s100 {
+  width: 100%;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.form_login {
+  min-height: 240px;
+}
+
+.form_control {
+  width: 100%;
+  padding: 0 8px;
+  border: 1px solid #eae1dc;
+  height: 38px;
+}
+
+.m_top_10 {
+  margin-top: 10px!important;
+}
+
+.m_bottom_5 {
+  margin-bottom: 5px;
+}
+
+.m_bottom_12 {
+  margin-bottom: 12px!important
+}
+
+.brown_btn {
+  background-color: #bb7752;
+}
+
+.btn_pattern {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  margin: 0 auto;
+  border: 0;
+  cursor: pointer;
+}
+
+.p13_0 {
+  padding: 13px 0;
+}
+
+.w110 {
+  width: 110px!important;
+}
+
+.m_top_10 {
+  margin-top: 10px;
+}
+
+.m_top_40 {
+  margin-top: 40px;
+}
+
+.fleft {
+  float: left;
 }
